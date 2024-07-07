@@ -6,16 +6,19 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build"
+    "build": "tsc -b && vite build",
+    "test": "vitest"
   },
   "dependencies": {
     "@react-three/drei": "^9.108.1",
     "@react-three/fiber": "^8.16.8",
     "miniplex": "^2.0.0",
+    "mutative": "^1.0.6",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "three": "^0.166.1",
-    "zustand": "^4.5.4"
+    "zustand": "^4.5.4",
+    "zustand-mutative": "^1.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -29,6 +32,7 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "typescript": "^5.2.2",
     "vite": "^5.3.1",
-    "vite-tsconfig-paths": "^4.3.2"
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^1.6.0"
   }
 }
